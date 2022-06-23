@@ -238,7 +238,7 @@ body {
   padding: 100px 0;
 }
 
-.items .inner {}
+/* .items .inner {} */
 
 .items-box {
   position: relative;
@@ -289,8 +289,7 @@ body {
 }
 
 /* 슬라이드 넣기 */
-.items-box:nth-child(2) {  
-}
+/* .items-box:nth-child(2) {} */
 
 .sw-items {
   width: 100%;
@@ -378,8 +377,7 @@ body {
 
 
 /* 링크 */
-.items-box:nth-child(3) {
-}
+/* .items-box:nth-child(3) {} */
 
 .items-box:nth-child(3) a {
   position: relative;
@@ -420,9 +418,7 @@ body {
 }
 
 
-.items-box:nth-child(4) {
-  
-}
+/* .items-box:nth-child(4) {} */
 
 .search-left {
   position: relative;
