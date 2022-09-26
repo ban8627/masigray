@@ -17,16 +17,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>마시그래이</title>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="js/swiper/swiper.min.css">
   <script src="js/swiper/swiper.min.js"></script>
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="modal/modalstyle.css">
+  <script src="modal/modalscript.js"></script>
   <script src="js/scrip.js"></script>
 </head>
 
 <body>
+  <!-- modal -->
+  <div class="modal-wrap">
+    <div class="modal-main">
+      <h1><strong>본 사이트는 개인 포트폴리오용으로 제작되었습니다.</strong></h1>
+      <p>
+        사이트에 대한 리소스는 원저작자에게 있습니다.<br>
+        해당 사이트 관련 문제 사항이 있으시면 아래 메일을 통해 연락해주시면 삭제하겠습니다.<br>
+        본 사이트는 Chrome 에 최적화되어 있습니다.</span>
+      </p>
+      <a href="mailto:ban8627@gmail.com" class="mail-bt">
+        <span>ban8627@gmail.com</span>
+        <i class="fas fa-envelope"></i>
+      </a>
+      <button class="modal-close">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
   <!-- go top -->
   <button class="gotop"></button>
 
@@ -373,32 +396,32 @@
 
         <ul class="franchiser-list clearfix">
 
-          <li>
-            <a href="#">
+          <li id="store-1">
+            <!-- <a href="#">
               <img src="images/shop1.jpg" alt="">
               <span>합천점</span>
-            </a>
+            </a> -->
           </li>
 
-          <li>
-            <a href="#">
+          <li id="store-2">
+            <!-- <a href="#">
               <img src="images/shop2.jpg" alt="">
               <span>신천점</span>
-            </a>
+            </a> -->
           </li>
 
-          <li>
-            <a href="#">
+          <li id="store-3">
+            <!-- <a href="#">
               <img src="images/shop3.jpg" alt="">
               <span>복현푸르지오점</span>
-            </a>
+            </a> -->
           </li>
 
-          <li>
-            <a href="#">
+          <li id="store-4">
+            <!-- <a href="#">
               <img src="images/shop4.jpg" alt="">
               <span>대곡점</span>
-            </a>
+            </a> -->
           </li>
 
         </ul>

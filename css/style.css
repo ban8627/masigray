@@ -36,6 +36,7 @@ body {
   letter-spacing: -0.5px;
   line-height: 1.6;
   color: #888;
+  min-width:360px;
   overflow-x: hidden;
 }
 
@@ -45,6 +46,7 @@ body {
   display: block;
   width: 100%;
   max-width: 1000px;
+  
   margin: 0 auto;
 }
 
